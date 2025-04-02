@@ -5,6 +5,7 @@ Process Planning Software
 
 Process Planning Software is a front-end application designed to enhance project management by integrating real-time notifications, interactive dashboards, and user availability tracking using eye-gaze detection.
 
+
 ✨ Features
 
 📢 Notifications System – Stay updated with mentions, deadlines, and project reminders.
@@ -19,6 +20,7 @@ Process Planning Software is a front-end application designed to enhance project
 
 ⌨ Keyboard Shortcuts – Navigate efficiently with quick commands.
 
+
 🛠 Tech Stack
 
 React.js – Front-end framework
@@ -29,7 +31,8 @@ Mediapipe FaceMesh – Eye tracking
 
 CSS & Tailwind – Styling
 
-Keyboard Shortcuts
+
+⌨ Keyboard Shortcuts
 
 ALT + N – Open Notifications
 
