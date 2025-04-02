@@ -5,7 +5,7 @@ Process Planning Software
 
 Process Planning Software is a front-end application designed to enhance project management by integrating real-time notifications, interactive dashboards, and user availability tracking using eye-gaze detection.
 
-
+		
 ✨ Features
 
 📢 Notifications System – Stay updated with mentions, deadlines, and project reminders.
