@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.notifications-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Title & Description */
+.dashboard-title {
+  font-size: 2rem;
+  color: #4A90E2;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #6b6b6b;
+  margin-bottom: 1.5rem;
+}
+
+/* Chart */
+.chart-container {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+/* Notification List */
+.notification-list {
+  background: #eef2f3;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.notification-list h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.notification-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notification-list li {
+  background: white;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border-left: 5px solid #4A90E2;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.notification-list li:hover {
+  background: #dbeafe;
+  border-left: 5px solid #357ABD;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .notifications-container {
+      width: 90%;
+  }
+}

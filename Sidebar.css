@@ -1,0 +1,88 @@
+/* Sidebar Container */
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background: linear-gradient(135deg, #2C3E50, #4CA1AF); /* Elegant dark-teal gradient */
+    color: white;
+    padding: 20px;
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Sidebar Title */
+  .sidebar-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFC107; /* Golden yellow for contrast */
+    text-align: center;
+  }
+  
+  /* Sidebar Menu */
+  .menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sidebar Menu Items */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #ffffff; /* White for contrast */
+    color: #2C3E50 !important; /* Darker shade for text */
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .menu-item:hover {
+    background: #4CA1AF; /* Soft teal effect */
+    color: white !important;
+    transform: scale(1.05);
+  }
+  
+  /* Sidebar Toggle Button */
+  .toggle-btn {
+    background: #FF9800; /* Warm orange for better visibility */
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .toggle-btn:hover {
+    background: #F57C00; /* Slightly darker orange */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 80px;
+      overflow: hidden;
+    }
+  
+    .sidebar.open {
+      width: 260px;
+    }
+  
+    .menu-item {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
