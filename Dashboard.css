@@ -1,0 +1,71 @@
+/* Dashboard.css */
+
+/* Overall container for the dashboard */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  /* Title styling for the dashboard */
+  .dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid container for charts */
+  .chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Styling for each chart container */
+  .chart-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .chart-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header for each chart */
+  .chart-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  /* Styling for small screens */
+  @media (max-width: 768px) {
+    .chart-grid {
+      grid-template-columns: 1fr;
+    }
+    .dashboard-container {
+      padding: 10px;
+    }
+    .chart-container {
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive container for each chart */
+  .chart-responsive-container {
+    width: 100%;
+    height: 100%;
+  }
+  
